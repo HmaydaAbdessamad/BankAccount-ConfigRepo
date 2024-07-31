@@ -1,0 +1,9 @@
+
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:customer-db
+
+springdoc:
+  swagger-ui:
+    path: /customer-service/docs

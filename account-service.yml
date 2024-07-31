@@ -1,4 +1,9 @@
-account:
-  params:
-    a: 777
-    b: 777
+
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:account-db
+
+springdoc:
+  swagger-ui:
+    path: /account-service/docs
